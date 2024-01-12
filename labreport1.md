@@ -11,7 +11,7 @@
   [user@sahara ~]$ 
 }
 ```
-The current working directory after the command is run is /home
+The current working directory after the command is run is "/home"
 Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
 This is not an error.
 
@@ -22,7 +22,7 @@ This is not an error.
   [user@sahara ~/lecture1]$ 
 }
 ```
-The current working directory after the command is run is /home/lecture1/
+The current working directory after the command is run is "/home/lecture1/"
 The provided path argument is valid and accessible from /home/ since it is a directory, thus changing the directory from /home/ to /home/lecture1/
 This is not an error.
 
@@ -33,7 +33,7 @@ This is not an error.
   bash: cd: lecture1/messages/sr.txt: Not a directory
 }
 ```
-The current working directory after the command is run is /home
+The current working directory after the command is run is "/home"
 The path to a file argument provided is invalid since it is a file, command does not execute.
 There is an error since it argument is not a directory.
 
