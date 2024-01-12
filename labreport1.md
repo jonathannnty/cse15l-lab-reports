@@ -1,14 +1,6 @@
-For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
+# __Lab Report 1__
 
-Share an example of using the command with no arguments.
-Share an example of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-So that's 9 total examples (3 for each command). For each, include:
-
-A screenshot or Markdown code block showing the command and its output
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+***
 
 # `cd` command
 
@@ -19,7 +11,7 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
   [user@sahara ~]$ 
 }
 ```
-The current working directory is after the command is run is /home
+The current working directory after the command is run is /home
 Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
 This is not an error.
 
@@ -30,7 +22,7 @@ This is not an error.
   [user@sahara ~/lecture1]$ 
 }
 ```
-The current working directory is after the command is run is /home/lecture1/
+The current working directory after the command is run is /home/lecture1/
 The provided path argument is valid and accessible from /home/ since it is a directory, thus changing the directory from /home/ to /home/lecture1/
 This is not an error.
 
@@ -41,9 +33,10 @@ This is not an error.
   bash: cd: lecture1/messages/sr.txt: Not a directory
 }
 ```
-The current working directory is after the command is run is /home
+The current working directory after the command is run is /home
 The path to a file argument provided is invalid since it is a file, command does not execute.
 There is an error since it argument is not a directory.
+
 ***
 
 # `ls` command
@@ -56,7 +49,7 @@ There is an error since it argument is not a directory.
   [user@sahara ~]$ 
 }
 ```
-The current working directory is after the command is /home
+The current working directory after the command is /home
 The command `ls` does not affect the current working directory but instead prints out a list of possible pathways that can taken from /home
 This is not an error.
 
@@ -68,7 +61,7 @@ This is not an error.
   "age": 25
 }
 ```
-The current working directory is after the command is run is /home
+The current working directory after the command is run is /home
 The command `ls` and the argument simply lists about the possible pathways to take from the given valid directory argument.
 This is not an error!
 
@@ -80,46 +73,46 @@ This is not an error!
   [user@sahara ~]$ 
 }
 ```
-The current working directory is after the comand is run is /home
+The current working directory after the command is run is /home
 The command `ls` and the given argument to a file lists out all possible pathways starting from the file, which is just the file itself.
 This is not an error.
 
-
+***
 
 # `cat` command
 
 1. Command with no arguments
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cat
+  Hello, world!
+  Hello, world!
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory after the command is run is /home
+The command prints out whatever is typed out in the terminal following the cat command.
+This is an error because I can't seem to escape once I run the `cat` with no argument.
 
 2. Command with a path to a directory as an argument
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cat lecture1/
+  cat: lecture1/: Is a directory
+  [user@sahara ~]$ 
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory after the command is run is /home
+The command will only print out the contents of a file, but not a directory.
+This is an error because cat can only be called on a file and not a directory.
 
 3. Command with a path to a file as an argument
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cat lecture1/messages/sr.txt 
+  Здраво Свете!
+  [user@sahara ~]$
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory after the comand is run is /home
+The command and the valid argument provided, a file, will print out the contents of the file.
+This is not an error.
