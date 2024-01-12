@@ -68,21 +68,21 @@ This is not an error.
   "age": 25
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the command is run is /home
+The command `ls` and the argument simply lists about the possible pathways to take from the given valid directory argument.
+This is not an error!
 
 3. Command with a path to a file as an argument
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ ls lecture1/messages/sr.txt 
+  lecture1/messages/sr.txt
+  [user@sahara ~]$ 
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the comand is run is /home
+The command `ls` and the given argument to a file lists out all possible pathways starting from the file, which is just the file itself.
+This is not an error.
 
 
 
