@@ -4,7 +4,7 @@
 
 # `cd` command
 
-1. Command with no arguments
+1. _Command with no arguments_
 ```
 {
   [user@sahara ~]$ cd
@@ -15,7 +15,7 @@ The current working directory after the command is run is /home
 Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
 This is not an error.
 
-2. Command with a path to a directory as an argument
+2. _Command with a path to a directory as an argument_
 ```
 {
   [user@sahara ~]$ cd lecture1/
@@ -26,7 +26,7 @@ The current working directory after the command is run is /home/lecture1/
 The provided path argument is valid and accessible from /home/ since it is a directory, thus changing the directory from /home/ to /home/lecture1/
 This is not an error.
 
-3. Command with a path to a file as an argument
+3. _Command with a path to a file as an argument_
 ```
 {
   [user@sahara ~]$ cd lecture1/messages/sr.txt 
@@ -41,7 +41,7 @@ There is an error since it argument is not a directory.
 
 # `ls` command
 
-1. Command with no arguments
+1. _Command with no arguments_
 ```
 {
   [user@sahara ~]$ ls
@@ -53,7 +53,7 @@ The current working directory after the command is /home
 The command `ls` does not affect the current working directory but instead prints out a list of possible pathways that can taken from /home
 This is not an error.
 
-2. Command with a path to a directory as an argument
+2. _Command with a path to a directory as an argument_
 ```
 {
   "firstName": "John",
@@ -65,7 +65,7 @@ The current working directory after the command is run is /home
 The command `ls` and the argument simply lists about the possible pathways to take from the given valid directory argument.
 This is not an error!
 
-3. Command with a path to a file as an argument
+3. _Command with a path to a file as an argument_
 ```
 {
   [user@sahara ~]$ ls lecture1/messages/sr.txt 
@@ -81,7 +81,7 @@ This is not an error.
 
 # `cat` command
 
-1. Command with no arguments
+1. _Command with no arguments_
 ```
 {
   [user@sahara ~]$ cat
@@ -93,7 +93,7 @@ The current working directory after the command is run is /home
 The command prints out whatever is typed out in the terminal following the cat command.
 This is an error because I can't seem to escape once I run the `cat` with no argument.
 
-2. Command with a path to a directory as an argument
+2. _Command with a path to a directory as an argument_
 ```
 {
   [user@sahara ~]$ cat lecture1/
@@ -105,7 +105,7 @@ The current working directory after the command is run is /home
 The command will only print out the contents of a file, but not a directory.
 This is an error because cat can only be called on a file and not a directory.
 
-3. Command with a path to a file as an argument
+3. _Command with a path to a file as an argument_
 ```
 {
   [user@sahara ~]$ cat lecture1/messages/sr.txt 
