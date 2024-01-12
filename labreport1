@@ -15,53 +15,50 @@ Indicate whether the output is an error or not, and if it's an error, explain wh
 1. Command with no arguments
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cd
+  [user@sahara ~]$ 
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the command is run is /home
+Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
+This is not an error.
 
 2. Command with a path to a directory as an argument
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cd lecture1/
+  [user@sahara ~/lecture1]$ 
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the command is run is /home/lecture1/
+The provided path argument is valid and accessible from /home/ since it is a directory, thus changing the directory from /home/ to /home/lecture1/
+This is not an error.
 
 3. Command with a path to a file as an argument
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ cd lecture1/messages/sr.txt 
+  bash: cd: lecture1/messages/sr.txt: Not a directory
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the command is run is /home
+The path to a file argument provided is invalid since it is a file, command does not execute.
+There is an error since it argument is not a directory.
+***
 
-
-# `cd` command
+# `ls` command
 
 1. Command with no arguments
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  [user@sahara ~]$ ls
+  lecture1
+  [user@sahara ~]$ 
 }
 ```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
+The current working directory is after the command is /home
+The command `ls` does not affect the current working directory but instead prints out a list of possible pathways that can taken from /home
+This is not an error.
 
 2. Command with a path to a directory as an argument
 ```
@@ -90,44 +87,6 @@ Error or no?
 
 
 # `cat` command
-
-1. Command with no arguments
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
-
-2. Command with a path to a directory as an argument
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
-
-3. Command with a path to a file as an argument
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-The current working directory is after the comand is run
-The command blah blah
-Error or no?
-
-# `cd` command
 
 1. Command with no arguments
 ```
