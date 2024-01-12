@@ -12,7 +12,7 @@
 }
 ```
 The current working directory after the command is run is home
-Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
+/Since no path arguments were provided, the change direction (cd) command did not change the directory to anything.
 This is not an error.
 
 2. _Command with a path to a directory as an argument_
