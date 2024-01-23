@@ -17,7 +17,7 @@
   [user@sahara ~]$ 
 }
 ```
-The current working directory after the command is run is /home. Since no path arguments were provided, the change direction (cd) command will change whatever the current directory is to /home. This is not an error.
+The current working directory after the command is run is /home. Since no path arguments were provided, the change direction (cd) command will change whatever the current directory is to /home. If the current working directory is other than /home, such as /home/lecture1, calling cd with no path arguments will change the directory to /home regardless. This is not an error.
 
 2. _Command with a path to a directory as an argument_
 ```
