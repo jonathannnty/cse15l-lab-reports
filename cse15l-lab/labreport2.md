@@ -102,3 +102,18 @@ The argument E e adds an generic matching the declared type of an ArrayList into
 - join(CharSequence delimiter, CharSequence... elements)
 
 The argument CharSequence delimiter, CharSequence elements is used to insert delimiter between each element of the ArrayList chatLog, which in this case is "\n". The relevant values is "\n" and chatLog because it'll return a new line for each chat message stored into the chatLog ArrayList. The fields chatLog is expected to change and be updated for each insertion of a new chat message.
+
+
+***
+## Absolute Path to _private_ and _public_ key for your SSH key for logging into ieng6
+
+![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/69bae21c59a3be103c4b0321449c5502ec56158a/images/absolutepath.png)
+
+## A terminal interaction where I log into my ieng6 account without being asked for a password.
+
+![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/08827efa933716c37759ac7b13eb8ab4209711fc/images/terminalinteraction.png)
+
+***
+# Reflection
+
+Something I didn't know before that I learned during Week 2 and 3 was the existence of SSH Keys, it allows for automated sign on by authenticated users. Through this process, the user saves plenty of time typing the appropriate terminal commands and manually providing their password. Additionally, I learned about queries and how it can added to a path and allow for user input to used as arguments for website programming. 
