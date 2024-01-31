@@ -31,10 +31,10 @@ class Handler implements URLHandler {
 ***
 
 ## /add-message Request #1
-![Image](cse15l-lab/screenshotpath.png)
+![Image](images/cse15l-lab/screenshotpath.png)
 
 ## /add-message Request #1 Page Result
-![Image](screenshotresult1.png)
+![Image](images/screenshotresult1.png)
 
 The methods in my code that are called are 
 - getQuery():
@@ -69,10 +69,10 @@ The argument CharSequence delimiter, CharSequence elements is used to insert del
 ***
 
 ## /add-message Request #2
-![Image](screenshotpath2.png)
+![Image](images/screenshotpath2.png)
 
 ## /add-message Request #2 Page Result
-![Image](screenshotresult2.png)
+![Image](images/screenshotresult2.png)
 
 The methods in my code that are called are 
 - getQuery():
