@@ -107,7 +107,7 @@ The argument CharSequence delimiter, CharSequence elements is used to insert del
 ***
 ## Absolute Path to _private_ and _public_ key for your SSH key for logging into ieng6
 
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/69bae21c59a3be103c4b0321449c5502ec56158a/images/absolutepath.png)
+![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/9522ca474e14bbceb59c8d4c05e3557a03a9d786/images/absolutepath.png)
 
 ## A terminal interaction where I log into my ieng6 account without being asked for a password.
 
