@@ -31,10 +31,10 @@ class Handler implements URLHandler {
 ***
 
 ## /add-message Request #1
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/28c0c9d4b3cfaac68cdf75504265420baa83bc73/images/screenshotpath1.png)
+![Image](screenshotpath.png)
 
 ## /add-message Request #1 Page Result
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/28c0c9d4b3cfaac68cdf75504265420baa83bc73/images/screenshotresult1.png)
+![Image](screenshotresult1.png)
 
 The methods in my code that are called are 
 - getQuery():
@@ -69,10 +69,10 @@ The argument CharSequence delimiter, CharSequence elements is used to insert del
 ***
 
 ## /add-message Request #2
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/28c0c9d4b3cfaac68cdf75504265420baa83bc73/images/screenshotpath2.png)
+![Image](screenshotpath2.png)
 
 ## /add-message Request #2 Page Result
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/28c0c9d4b3cfaac68cdf75504265420baa83bc73/images/screenshotresult2.png)
+![Image](screenshotresult2.png)
 
 The methods in my code that are called are 
 - getQuery():
@@ -107,11 +107,11 @@ The argument CharSequence delimiter, CharSequence elements is used to insert del
 ***
 ## Absolute Path to _private_ and _public_ key for your SSH key for logging into ieng6
 
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/images/absolutepath.png)
+![Image](absolutepath.png)
 
 ## A terminal interaction where I log into my ieng6 account without being asked for a password.
 
-![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/images/terminalinteraction.png)
+![Image](terminalinteraction.png)
 
 ***
 # Reflection
