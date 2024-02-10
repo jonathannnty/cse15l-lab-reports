@@ -37,11 +37,11 @@ class Handler implements URLHandler {
 ![Image](images/screenshotresult1.png)
 
 The methods in my code that are called are 
-- getQuery():
+- ``getQuery():``
 
 There are no relevent arguments. Relevant values is the whatever follows the key "?" in a Path. The values changes from this specific request based on whatever the user inputs into the Query and is variable. If no changes were made to following the method call, it is based on the user's choice.
 
-- split(String regex)
+- ``split(String regex)``
 
 The argument String regex splits the String the method is called on by the given regular expression. Relevant values is the split String elements created in the String array. The values changes because the split elements may have differing String lengths because a portion of the element is determined by what the user inputs. If no changes were made to following the method call, it is based on the user's choice of keeping whatever followed the previous query. 
 
