@@ -31,7 +31,7 @@ class Handler implements URLHandler {
 ***
 
 ## /add-message Request #1
-![Image](screenshotpath.png)
+![Image](images/screenshotpath.png)
 
 ## /add-message Request #1 Page Result
 ![Image](screenshotresult1.png)
