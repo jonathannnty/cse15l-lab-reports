@@ -40,12 +40,12 @@ The path of this incoming request is ``/add-message`` and following with a query
 
 The result is a new line of ``String`` with its content being "JonathanTy: Hello,+world!"
 
-The class fields are called
+__The class fields are called__
 - ``chatLog``
 
 The field is an ``ArrayList<String>`` object that instantiates a new ``ArrayList<String>`` object everytime the class is run. This field is meant to store ``newMessage`` containing a valid user and message from the query.
 
-The methods in my code that are called are 
+__The methods in my code that are called are__
 - ``handleRequest(URI url)``
 
 The argument ``URI`` ``url`` is the url created through the Server.java file on the ChatServer.java file. The method ``handleRequest()`` passes a new url argument everytime a request is made on the web server. The method is meant to handle incoming requests by the user. First checking to see if path meets conditions to perform one of four results: return the format of a valid chat message, return an existing ``chatLog``, return return an updated ``chatLog`` with a valid ``newMessage``, or return a "404 Not Found!" ``String``. This method directly dictates the ``size`` of the ``ArrayList<String>`` ``chatLog`` whether it adds a new ``String`` object ``newMessage`` into ``chatLog`` or not.
@@ -93,7 +93,7 @@ The path of this incoming request is ``/add-message`` and following with a query
 
 The result is a two lines of ``String`` containing the inital request chat message in the first line and the second line with its content being "World: Hello!"
 
-The methods in my code that are called are 
+__The methods in my code that are called are__
 - ``getQuery()``
 
 There are no relevent arguments. Relevant values is the whatever follows the key "?" in a Path. The values changes from this specific request based on whatever the user inputs into the Query and is variable. If no changes were made to following the method call, it is based on the user's choice.
