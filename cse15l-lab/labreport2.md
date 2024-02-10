@@ -31,7 +31,7 @@ class Handler implements URLHandler {
 ***
 
 ## /add-message Request #1
-![Image](images/screenshotpath.png)
+![Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/2d83eb0654562f480e34c05e5091dc909f10dcee/cse15l-lab/images/screenshotpath.png)
 
 ## /add-message Request #1 Page Result
 ![Image](images/screenshotresult1.png)
