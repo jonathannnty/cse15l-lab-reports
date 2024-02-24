@@ -37,7 +37,7 @@ ___
 
 The command that I ran `vim` enables text editting on a given file name. As aforementioned by Step 6, I used the auto-complete shortcut of the `<tab>` key to access the `ListExamples.java` file. Afterwards, in the text editer `vim`, I need to change the variable that is being incremented from `index1` to `index2.` The 1 in the variable name can be quickly accessed by the `G` key navigation tool, which can take you to a specified row in the text (Row 44); additionally, the column where 1 is located can accessed through the `|`, which can take you a specified column in the text. Once you are at the position where edits must be made, `s` removes the initial character where the cursor was and then enters insert mode. Simply insert 2 into the text. `<esc>` will exit out of insert mode. From there, `:wq` will save and quit vim.
 
-![Image](images/lab4_step7b.png)
+![Image](images/lab4-step7b.png)
 ![Image](images/lab4_step7.png)
 ___
 
