@@ -7,7 +7,7 @@ ___
 
 The command that I ran `ssh` was intended for me, the user, to remotely access and manage the system of a remote computer. The effects of the those key presses were intended to call the `ssh` command and afterwards providing the username and hostname of the remote system you want to connect to, or `user@host-name`. There is no such preexisting call of the command in the bash history so my bash history was not used for this step.
 
-[Image](https://github.com/jonathannnty/cse15l-lab-reports/blob/98adaf77b1c82e158915e4351b85ad0f7358825b/cse15l-lab/images/lab4_step4.png)
+[Image](/images/lab4_step4.png)
 ___
 
 
