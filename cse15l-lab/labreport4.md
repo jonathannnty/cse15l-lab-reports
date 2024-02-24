@@ -4,7 +4,7 @@ ___
 ## Step 4. Log into ieng6
 * The keys that were pressed were
 
-## s s h `<space>` j 1 t y @ i e n 6 . u c s d . e d u `<enter>`
+``` s s h `<space>` j 1 t y @ i e n 6 . u c s d . e d u `<enter>` ```
 
 The command that I ran `ssh` was intended for me, the user, to remotely access and manage the system of a remote computer. The effects of the those key presses were intended to call the `ssh` command and afterwards providing the username and hostname of the remote system you want to connect to, or `user@host-name`. There is no such preexisting call of the command in the bash history so my bash history was not used for this step.
 
