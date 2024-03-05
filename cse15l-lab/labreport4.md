@@ -61,6 +61,6 @@ ___
 
 ``` g i t `<space>` a d d `<space>` . , g i t `<space>` p u s h, g i t `<space>` c o m m i t `<space>` - m `<space>` "index1 to index2" ```
 
-The command `git add .` is intended to include the ALL changes that I've made in the repository into the staging area to be included in the next commit, including the changes made to `ListExamples.java` through the `vim` text editor. Afterwards, I used the command `git commit -m ""` in order to record the changes staged as a new commit in the Git history. The command line option `-m` is so that it attaches a message with the commit you've made, normally this message should indicate what were the changes made to the repository. So befittingly, my commit message was "index1 to index2" since that was the sole change I made to `ListExamples.java`.
+The command `git add .` is intended to include the ALL changes that I've made in the repository into the staging area to be included in the next commit, including the changes made to `ListExamples.java` through the `vim` text editor. The `git push` command is used to upload local repository content to a remote repository. Afterwards, I used the command `git commit -m ""` in order to record the changes staged as a new commit in the Git history. The command line option `-m` is so that it attaches a message with the commit you've made, normally this message should indicate what were the changes made to the repository. So befittingly, my commit message was "index1 to index2" since that was the sole change I made to `ListExamples.java`.
 
 ![Image](images/lab4_step9.png)
